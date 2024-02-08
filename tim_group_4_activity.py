@@ -68,7 +68,7 @@ def circle(turta, circle_color, border_color):
 """In the lines below the "Pattern" function is defined determining the steps of the process of drawing."""
 def pattern(turta, hexa_color, circle_color, square_color, border_color):
    
-    # In the lines below, the position and parameters for the hexagon figure are outlined.
+   """In the lines below, the position and parameters for the hexagon figure are outlined"""
    
    setPos (turta, -130, 330)
    hexagon(turta, hexa_color, border_color)
@@ -79,7 +79,7 @@ def pattern(turta, hexa_color, circle_color, square_color, border_color):
    setPos (turta, 50, 20)
    hexagon(turta, hexa_color, border_color)
 
-    # In the lines below, the position and parameters for the square figure are outlined.
+    """In the lines below, the position and parameters for the square figure are outlined"""
 
    setPos(turta, 30, 330)
    square(turta, square_color, border_color)
@@ -90,7 +90,7 @@ def pattern(turta, hexa_color, circle_color, square_color, border_color):
    setPos(turta, 250, 20)
    square(turta, square_color, border_color)
 
-    # In the lines below, the position and parameters for the circle figure are outlined.
+   """In the lines below, the position and parameters for the circle figure are outlined"""
    
    setPos(turta, -290, 230)
    circle(turta, circle_color, border_color)
